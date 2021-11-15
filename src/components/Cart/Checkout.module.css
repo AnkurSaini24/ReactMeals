@@ -1,7 +1,9 @@
 .form {
     margin: 1rem 0;
-    height: 19rem;
-    overflow: auto;
+    /* height: 19rem; */
+    /* overflow: auto; */
+	height: 12rem;
+    overflow-y: scroll
   }
   
   .control {
@@ -23,9 +25,16 @@
   }
   
   .actions {
-    display: flex;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* gap: 1rem; */
+	display: flex;
     justify-content: flex-end;
+    grid-gap: 1rem;
     gap: 1rem;
+    bottom: 3px;
+    position: relative;
+    right: 20px;
   }
   
   .actions button {
